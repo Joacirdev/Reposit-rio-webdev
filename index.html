@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Entenda o que é o CSS, como ele surgiu e como os frameworks ajudam a criar páginas responsivas.">
+    <title>Notícia</title>
+    <!-- <link rel="stylesheet" href="../../css/estilizacao-pag-noticia/noticia.css"> -->
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-content">
+            <a class="menu-link" href="#sobre"><span class="menu-icon" aria-hidden="true">☰</span> MENU</a>
+            <span class="section-title">TECNOLOGIA</span>
+            <nav aria-label="Navegação principal">
+                <a href="#prevencao">Frameworks</a>
+                <a href="#sobre">Sobre</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="inicio" class="page-layout">
+        <article id="noticia" class="news-card">
+            <div class="category">DESENVOLVIMENTO WEB <span>•</span> 5 min de leitura</div>
+            <h1>CSS: a linguagem que dá aparência à web e os frameworks que aceleram o trabalho</h1>
+            <p class="lead">Criado nos anos 1990 para separar estrutura e aparência, o CSS ganhou frameworks como Bootstrap e Foundation. Veja como tudo funciona.</p>
+
+            <figure class="hero-image">
+                <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&amp;fit=crop&amp;w=1400&amp;q=85" alt="Pessoa observando códigos e sistemas em monitores">
+                <figcaption>O CSS define cores, fontes, espaçamentos e a posição dos elementos na tela.</figcaption>
+            </figure>
+
+            <p>O <strong>“CSS”</strong> (Cascading Style Sheets) é a linguagem que cuida da aparência de uma página web. Enquanto o HTML define a estrutura do conteúdo, como títulos, parágrafos e listas, o CSS define como esse conteúdo é apresentado: cores, fontes, espaçamentos e posição na tela.</p>
+
+            <p>A primeira versão oficial foi publicada pelo W3C em 1996, com a proposta de separar estrutura e apresentação. A versão atual, o CSS3, é dividida em módulos e trouxe web fontes, bordas arredondadas, sombras, gradientes e animações.</p>
+
+            <aside class="quote">“O HTML fica com o conteúdo; o CSS cuida do estilo.”</aside>
+
+
+            <section id="prevencao">
+                <h2>Três frameworks para conhecer</h2>
+                <ol class="tips">
+                    <li><span>01</span><div><strong>Bootstrap</strong><p>Criado pela equipe do Twitter em 2011, é o mais popular. Mobile-first, usa grid de 12 colunas e 5 breakpoints.</p></div></li>
+                    <li><span>02</span><div><strong>Foundation</strong><p>Também de 2011, usa SASS nativamente e tem o XY grid, com alinhamento vertical e horizontal.</p></div></li>
+                    <li><span>03</span><div><strong>Semantic UI</strong><p>Usa LESS e jQuery, com classes em linguagem natural que deixam o código mais fácil de ler.</p></div></li>
+                </ol>
+            </section>
+
+            <p>Para aplicar CSS, o método mais recomendado é o arquivo externo, ligado ao HTML pela tag link. Ao usar um framework, combine as classes com a marcação da documentação oficial e confira a compatibilidade de versões.</p>
+            <div class="article-footer">#CSS&nbsp;&nbsp; #Frameworks</div>
+        </article>
+
+        <aside id="sobre" class="sidebar">
+            <span class="sidebar-label">FIQUE INFORMADO</span>
+            <h2>Aprenda CSS na prática.</h2>
+            <p>Conteúdo claro para estudar front-end no dia a dia.</p>
+            <a href="#noticia">Voltar ao início ↑</a>
+        </aside>
+    </main>
+    <footer><p>Informação para quem está aprendendo web</p></footer>
+</body>
+</html>
